@@ -1,0 +1,15 @@
+{
+  "name": "minicurso/leads",
+  "description": "WordPress Plugin Boilerplate with PSR-4 Autoloading.",
+  "license": "GPL-3.0-or-later",
+  "type" : "wordpress-plugin",
+  "keywords": ["wordpress", "plugin"],
+  "require": {
+    "php": "^7.2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "MiniCurso\\Leads\\": "src/"
+    }
+  }
+}
