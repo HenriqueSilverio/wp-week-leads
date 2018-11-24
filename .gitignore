@@ -1,0 +1,5 @@
+# Code Editors
+*.sublime-*
+
+# OS X metadata
+.DS_Store
